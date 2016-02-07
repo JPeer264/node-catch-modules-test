@@ -1,6 +1,6 @@
 {
-  "name": "catch-module-test",
-  "version": "0.0.1",
+  "name": "catch-modules-test",
+  "version": "0.0.3",
   "description": "A test module for catch-modules. Contains just a package.json",
   "main": "index.js",
   "scripts": {
@@ -9,12 +9,12 @@
   "author": "Jan Peer Stöcklmair <janpeer264@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "test-dependency-module-for-catch-modules": "^0.0.0"
+    "mocha": "^0.x.1"
   },
   "devDependencies": {
-    "test-dev-module-for-catch-modules": "^0.0.0"
+    "chai": "^0.x.1"
   },
   "peerDependencies": {
-    "test-peer-module-for-catch-modules": "^0.0.0"
+    "grunt": "^0.x.0"
   }
 }
