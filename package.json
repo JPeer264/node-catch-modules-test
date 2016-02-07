@@ -1,0 +1,20 @@
+{
+  "name": "catch-module-test",
+  "version": "0.0.1",
+  "description": "A test module for catch-modules. Contains just a package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Peer Stöcklmair <janpeer264@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "test-dependency-module-for-catch-modules": "^0.0.0"
+  },
+  "devDependencies": {
+    "test-dev-module-for-catch-modules": "^0.0.0"
+  },
+  "peerDependencies": {
+    "test-peer-module-for-catch-modules": "^0.0.0"
+  }
+}
